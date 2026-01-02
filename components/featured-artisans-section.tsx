@@ -12,9 +12,9 @@ const artisans = [
     location: "Downtown District",
     rating: 4.9,
     reviews: 127,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/avatar1.jpg",
     specialties: ["Custom Furniture", "Home Renovation", "Woodworking"],
-    hourlyRate: 45,
+    hourlyRate: 4500,
     responseTime: "2 hours",
     completedJobs: 89,
   },
@@ -25,9 +25,9 @@ const artisans = [
     location: "Arts Quarter",
     rating: 5.0,
     reviews: 94,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/fashion.jpg",
     specialties: ["Custom Clothing", "Alterations", "Wedding Dresses"],
-    hourlyRate: 35,
+    hourlyRate: 3500,
     responseTime: "1 hour",
     completedJobs: 156,
   },
@@ -38,9 +38,9 @@ const artisans = [
     location: "Riverside",
     rating: 4.8,
     reviews: 203,
-    image: "/placeholder.svg?height=300&width=300",
+    image: "/avatar2.jpg",
     specialties: ["Home Wiring", "Solar Installation", "Smart Home Setup"],
-    hourlyRate: 55,
+    hourlyRate: 5500,
     responseTime: "30 minutes",
     completedJobs: 234,
   },
@@ -80,7 +80,7 @@ export function FeaturedArtisansSection() {
                   </div>
                 </div>
                 <div className="absolute bottom-4 left-4 bg-emerald-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                  ${artisan.hourlyRate}/hr
+                  ₦ {artisan.hourlyRate}/hr
                 </div>
               </div>
 

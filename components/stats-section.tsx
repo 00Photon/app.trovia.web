@@ -4,10 +4,10 @@ import { useEffect, useState } from "react"
 import { Users, Briefcase, ShoppingBag, MapPin } from "lucide-react"
 
 const stats = [
-  { icon: Users, label: "Active Artisans", value: 12500, suffix: "+" },
-  { icon: Briefcase, label: "Jobs Completed", value: 45000, suffix: "+" },
-  { icon: ShoppingBag, label: "Products Sold", value: 28000, suffix: "+" },
-  { icon: MapPin, label: "Cities Served", value: 150, suffix: "+" },
+  { icon: Users, label: "Active Artisans", value: 50, suffix: "+" },
+  { icon: Briefcase, label: "Jobs Completed", value: 100, suffix: "+" },
+  { icon: ShoppingBag, label: "Products Sold", value: 20, suffix: "+" },
+  { icon: MapPin, label: "Cities Served", value: 5, suffix: "+" },
 ]
 
 export function StatsSection() {

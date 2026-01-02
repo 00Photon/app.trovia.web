@@ -72,7 +72,7 @@ export function Header() {
               <UserDropdownMenu user={user} profile={profile} initials={initials} logout={logout} />
             ) : (
               <>
-                <Link href={"/login"}>
+                <Link href={"/#"}>
                   <Button
                     variant="outline"
                     className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 bg-transparent"
@@ -80,7 +80,7 @@ export function Header() {
                     Sign In
                   </Button>
                 </Link>
-                <Link href={"/onboard/sign-up"}>
+                <Link href={"/#"}>
                   <Button className="bg-emerald-600 hover:bg-emerald-700 text-white">
                     Get Started
                   </Button>
@@ -118,7 +118,7 @@ export function Header() {
                   <UserDropdownMenu user={user} profile={profile} initials={initials} logout={logout} />
                 ) : (
                   <>
-                    <Link href={"/login"}>
+                    <Link href={"/#"}>
                       <Button
                         variant="outline"
                         className="border-emerald-600 text-emerald-600 hover:bg-emerald-50 bg-transparent"
@@ -126,7 +126,7 @@ export function Header() {
                         Sign In
                       </Button>
                     </Link>
-                    <Link href={"/onboard/sign-up"}>
+                    <Link href={"/#"}>
                       <Button className="bg-emerald-600 hover:bg-emerald-700 text-white">
                         Get Started
                       </Button>

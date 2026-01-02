@@ -12,7 +12,7 @@ const artisans = [
   { name: "", skill: "Plumber", image: "plumber.jpg" },
   { name: "", skill: "Tailor", image: "tailor.jpg" },
   { name: "", skill: "Landscaper", image: "landscaper.jpg" },
-  { name: "", skill: "Jeweler", image: "jeweler.jpg" },
+  // { name: "", skill: "Jeweler", image: "jeweler.jpg" },
 ]
 
 export function HeroSection() {
@@ -42,7 +42,7 @@ export function HeroSection() {
   }, [])
 
   return (
-    <section className="relative overflow-hidden bg-white pt-32 pb-20 mt-20">
+    <section className="relative overflow-hidden bg-white pb-20 mt-20">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 leading-tight mb-8">

@@ -25,10 +25,10 @@ export default function HomePage() {
         <HowItWorksSection />
         <FeaturedArtisansSection />
         <MarketplacePreview />
-        <LocalImpactSection />
-        <NeighborhoodSpotlightSection />
-        <TestimonialsSection />
-        <CallToActionSection />
+        {/* <LocalImpactSection />
+        <NeighborhoodSpotlightSection /> */}
+        {/* <TestimonialsSection /> */}
+        {/* <CallToActionSection /> */}
       </main>
       <Footer />
     </div>
