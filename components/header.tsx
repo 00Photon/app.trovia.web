@@ -15,6 +15,7 @@ import {
 import { useAuth } from "@/providers/auth-provider";
 import { useProfileStore } from "@/store/profile-store";
 import { UserDropdownMenu } from "@/components/user/user-dropdown-menu";
+import { Image } from "lucide-react";
 
 const NAV_ITEMS = [
   { label: "Browse Artisans", href: "/browse" },
@@ -39,8 +40,13 @@ export function Header() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-emerald-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">T</span>
+            <div className="w-8 h-8  rounded-lg flex items-center justify-center">
+              {/* <span className="text-white font-bold text-lg">T</span> */}
+                    <img
+                      src={"/logo.svg"}
+                      alt={""}
+                      className=""
+                    />
             </div>
             <span className="text-xl font-bold text-gray-900">Trovia</span>
           </Link>
